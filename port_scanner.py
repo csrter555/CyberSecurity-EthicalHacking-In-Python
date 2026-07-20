@@ -41,6 +41,6 @@ def basic_port_scanner(ip_list, port_list, timeout=1.0):
 if __name__ == "__main__":
     target_ips = ["127.0.0.1", "192.168.1.1"]
 
-    target_ports = [22, 80, 443]
+    target_ports = [22, 80, 443, 8080, 3306, 3389, 445, 135, 139, 138, 137, 25, 53, 110, 143, 993, 995, 587, 465, 21, 20, 23, 69, 161, 162, 514, 520]
     
     basic_port_scanner(target_ips, target_ports)
