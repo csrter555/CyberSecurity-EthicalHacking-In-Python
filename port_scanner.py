@@ -6,6 +6,7 @@ def basic_port_scanner(ip_list, port_list, timeout=1.0):
     Scans specified IP addresses for open ports using standard TCP sockets.
     Reports connection status and error codes for defensive network mapping.
     """
+    print(f"[*] Script is currently executing on hostname: {socket.gethostname()}")
     print("[*] Initializing Defense Mapping Scan...")
     
     for ip in ip_list:
