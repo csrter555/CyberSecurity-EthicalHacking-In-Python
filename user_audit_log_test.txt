@@ -1,0 +1,34 @@
+[*] Initializing Local User Security Risk Assessment...
+-------------------------------------------------------
+[+] Active Runner Account Detected: 'codespace' (UID: 1000)
+
+[*] Auditing Account Privilege Level...
+[+] SECURE: The account is operating as a standard unprivileged user.
+
+[*] Scanning Active Environment Variables for Information Leakage...
+[WARNING]: Sensitive keyword match found in environment key: 'GITHUB_TOKEN'
+[WARNING]: Sensitive keyword match found in environment key: 'GITHUB_CODESPACE_TOKEN'
+  -> Mitigation: Ensure sensitive secrets are masked or injected via secure memory vaults.
+
+[*] Auditing Home Directory Access Controls...
+[NOTE]: Home directory '/home/codespace' permits write access to this process runtime.
+  -> Verification: Ensure configuration profiles (.bashrc, .profile) are root-owned to prevent tampering.
+
+[*] Assessment Complete.
+
+# This was test No. 1. If you take this code into a github repo of your own and run it in the terminal with python eh_sec_users.py, you will get your own results. This can be made as the basis for cyber security weakness testing. The type that keeps businesses, governments, and schools from getting hacked. Under firewall_eh_website.py you can see code that identifies weaknesses in firewalls. In FIREWALLS.md you can see the Pros and Cons of firewalls. 
+
+[*] Initializing Boundary Audit on: https://github.com
+-----------------------------------------------------------------
+[+] Server Connection Established Successfully. Status: 200
+
+[*] Analyzing Front-Facing Infrastructure Signatures...
+=================================================================
+[DETECTION]: Server masking signature: 'github.com'
+[DETECTION]: HSTS (Strict Transport Security) Policy is ACTIVE.
+  -> Security Policy: Enforces encrypted HTTPS connections, blocking downgrade vectors.
+[DETECTION]: Content Security Policy (CSP) headers present.
+  -> Security Policy: Restricts rogue script executions on the host frame.
+=================================================================
+
+# This was test No. 2. It tested Github's firewall. This is a type of ethical hacking. 
