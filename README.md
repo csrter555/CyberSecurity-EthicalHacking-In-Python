@@ -1,1 +1,1 @@
-***All Information Has Moved To https://csrter555.org/. Check it out! Coded in Python, HTML, JavaScript, and PHP for a dynamic user experience.***
+***All Information Is Moving To https://csrter555.org/. Check it out! Coded in HTML as a static user experience.***
